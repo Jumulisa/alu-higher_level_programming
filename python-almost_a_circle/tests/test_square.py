@@ -436,8 +436,8 @@ class TestSquareMethods(unittest.TestCase):
         self.assertEqual(s1.size, 1)
         self.assertEqual(s1.x, 2)
         self.assertEqual(s1.y, 3)
+
     def test_save_to_file(self):
-        
         """Test to save to file"""
         Base._Base__nb_objects = 0
 
@@ -463,8 +463,8 @@ class TestSquareMethods(unittest.TestCase):
         with open("Square.json") as file:
             self.assertEqual(file.read(), "[]")
             self.assertEqual(type(file.read()), str)
+
     def test_load_from_file_2(self):
-        
         """ Test to load JSON file """
         s1 = Square(5)
         s2 = Square(8, 2, 5)

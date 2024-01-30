@@ -9,4 +9,3 @@ if (!isNaN(firstArgument) && !isNaN(secondArgument)) {
 function add (a, b) {
   return (a + b);
 }
-

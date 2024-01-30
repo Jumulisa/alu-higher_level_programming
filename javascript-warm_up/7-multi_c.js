@@ -7,4 +7,3 @@ if (!isNaN(xArg)) {
 } else {
   console.log('Missing number of occurrences');
 }
-

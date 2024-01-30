@@ -6,4 +6,3 @@ if (firstArgs[0] === undefined && secondArgs[0] === undefined) {
 } else {
   console.log(firstArgs[0] + ' is ' + secondArgs[1]);
 }
-
